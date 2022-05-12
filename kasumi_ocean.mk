@@ -20,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common derp stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/ksumi/config/common_full_phone.mk)
 
-DERP_BUILDTYPE := Official
+LINEAGE_BUILDTYPE := Official
 USE_LEGACY_BOOTANIMATION := true
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Inherit from ocean device
@@ -37,7 +37,7 @@ PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := derp_ocean
+PRODUCT_NAME := kasumi_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

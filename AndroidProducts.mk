@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_ocean.mk
+    $(LOCAL_DIR)/kasumi_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_ocean-eng \
-    derp_ocean-user \
-    derp_ocean-userdebug
+    kasumi_ocean-eng \
+    kasumi_ocean-user \
+    kasumi_ocean-userdebug
